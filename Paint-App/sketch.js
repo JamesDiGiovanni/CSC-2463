@@ -17,7 +17,7 @@ var prevX, prevY;
 
 function setup() 
 {
-  createCanvas(600, 400);
+  createCanvas(windowWidth, windowHeight);
   background(255);
   drawPalette();
 }
