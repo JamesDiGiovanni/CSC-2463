@@ -16,7 +16,6 @@ function setup()
 {
   createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
-
   var centerX = windowWidth / 2;
   var centerY = windowHeight / 2;
   walkingAnimation = new WalkingAnimation(spriteSheet, 80, 80, centerX, centerY + 100, 9);
